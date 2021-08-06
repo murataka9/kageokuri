@@ -1,0 +1,45 @@
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+     /* --- grad --*/
+    /* background:linear-gradient(45deg, #090c0e,#442344,#2c306d);グラデーションを定義 */
+	/* background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	/* animation: bggradient 20s ease infinite; */ */
+    
+}
+
+/* @keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+
+p{
+    color: white;
+}
+
+.mov{
+    margin:20vh auto;
+    width:800px;
+    height:500px;
+}
+
+.full-width-img{
+    margin: 0; 
+    width: 100vw;
+}
+
+.concept{
+    width: 500px;
+    margin: 5vh auto 0 auto;
+}
+
