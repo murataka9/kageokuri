@@ -4,25 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
     <title>kageokuri - Wine as a medium of exposure: ABIRU
     </title>
 </head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <body>
-    <div class="body">
+    <div id="particles-js"></div>
+    <div class="body black">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark black text-white justify-content-center">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto mr-auto me-auto mb-2 mb-lg-0">
+    
+                　<li style='display: none; 'class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="#">home</a>
+               　 </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#con">concept</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#mov">movie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bre">brew</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pho">photo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#abo">profile</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
     <img class='full-width-img' src="./img/cov.png">
 
-    <p class='concept'>
+    <h2 id='con' class='text-white sans' >concept</h2>
+    <h3 class="text-white" style="letter-spacing: 12px;">‘kageokuri’</h3>
+    
+
+    <p class='concept text-white'>
         醸造の過程を記録メディアに残しながら，醸造と編集によって完成された2つの媒体を二面から感じとる．
         長い時間の中で，命の源から信仰へ，そして工業製品からアーティスティックな存在へと変化していったワインというのメディアとそれをも写しとり電磁的に記録される映像という2つのメディアを体験する．
         ワインは蒸気となり，映像となり，音となり，それらを「あびる」体験が身体を刺激する．香りとともに音を聞く．グラスを持って踊り出す．「のむ」から「あびる」へ．多様な刺激によってメディアを感じることでワインというメディアの複雑さを表現する．</p>
     
-    <div class="mov">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/bnrS5rfo5mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id='mov' class="mov">
+        <iframe min-width=100vw width="800" height="500" src="https://www.youtube.com/embed/bnrS5rfo5mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    <h2 id='bre' class='text-white sans' >brew</h3>
+    <p class="concept">Comming Soon</p>
+
+    <h2 id='pho' class='text-white sans'>photos</h3>
+    <p class="concept">Comming Soon</p>
     <img class='full-width-img' src="./img/mikio.png">
 
+    <h2 id='abo' class='text-white sans'>profile</h3>
+    <div class="me">
+    <p class="me let10" >村上貴人</p>
+    <p class='me'> Takahito Murakami</p>
+    <a target="blank" class='me' href="https://kamiwork.com"> Portfolio Web Site </a>
+    
+
+    <a target="blank" href='https://twitter.com/murataka9'><i class="me fa fa-2x fa-twitter text-white" aria-hidden="true">&nbsp</i></a>
+    <a target="blank" href='https://www.instagram.com/takahitomurakami/'><i class="me fa fa-2x fa-instagram text-white" aria-hidden="true">&nbsp</i></a>
+    <a target="blank" href='https://github.com/murataka9'><i class="me fa fa-2x fa-github text-white" aria-hidden="true"></i></a>
+    
+
+    <p class="me">プログラマー・デザイナー. HCI・コンピュータービジョン・メディアアート・写真に興味を持つ．インタラクション展「Interactive World」の主催・メディアアート作品「Surface」にてISCA 2018入選．
+        立命館大学全国高校・大学ソフトウェア創作コンテスト ブラザー賞受賞、CyberAgent Swift2 UI/UX Challenge 特別賞受賞、慶應義塾大学 SFCスマホ未来コンテスト 佳作受賞 他．
+        筑波大学 知識情報・図書館学類 / 情報メディア創成学類 主催メディアアート展「緊急時代宣言」にてアートディレクター，イラストレーター・デザイナーとしてロゴ・ポスター・Webデザインを担当．</p>
+
+
     </div>
+    <h5 class='text-white sans'>この作品について</h4>
+    <p class="me">この作品は2021年度 筑波大学 知識情報・図書館学類 / 情報メディア創成学類 主催メディアアート展「緊急時代宣言」の作品です．
+        展示は授業で開講されているメディアアート（落合陽一）の一環です．作品展ホームページは<a target="blank" href='https://kinkyu-jidai-sengen.web.app'>こちら</a>．
+        <br>許可を受けたもの以外のワインの製造は法律で禁止されています．本作品ではアルコール度数計測を行い1%未満であることを確認しながら行いました．
+    </p>
+    <p class='me' style="text-align: center;">spacial thanks</p>
+    <p class="me" style="text-align: center;">モデル 岡村美紀</p>
+    </div>
+
+    <div class="footer">
+        <p>copyright &copy; kami: Takahito Murakami</p>
+    </div>
+
 </body>
 </html>
