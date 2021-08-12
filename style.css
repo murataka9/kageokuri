@@ -94,5 +94,36 @@ h3, h2, h1, h4, h5, h6{
     }
 }
 
+.container {
+    padding: 0 !important;
+    margin: 0!important;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.ue {
+    
+    text-align: left;
+    z-index: 10;
+    display: block;
+}
+
+.ue p{
+    margin: 25% 25%;
+    display: block;
+    z-index: 10;
+    position: absolute;
+}
+
+.container img{
+    z-index: 1;
+    width: 100vw;
+    display: block;
+    position: relative;
+    height: 100vh;
+    object-fit: cover;
+
+}
 
 
